@@ -1,0 +1,105 @@
+ h1 {
+    font-family: "Diatype Variable", Icons;
+    font-style: normal;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    font-size: 3.2rem;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.75);
+    font-variation-settings: 'slnt' 0, 'MONO' 0;
+}
+
+h1 a {
+    color: rgba(0, 0, 0, 0.75);
+}
+
+h2 {
+    font-family: "Diatype Variable", Icons;
+    font-style: normal;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 2.2rem;
+    line-height: 1.2;
+    font-variation-settings: 'slnt' 0, 'MONO' 0;
+}
+h2 a {
+    color: rgba(0, 0, 0, 0.75);
+}
+
+small {
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1.2;
+    font-family: "Monument Grotesk Mono Variable", Icons;
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+    font-variation-settings: 'slnt' 0, 'MONO' 1;
+}
+
+small a {
+    color: rgba(0, 0, 0, 0.6);
+    border-bottom-width: 0em;
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 100%;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+.sidebar h3 {
+    margin-top: 0;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px;
+    background-color:whitesmoke;
+    color: #333;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    color: red;
+    
+}
+
+.content {
+    margin-left: 40%;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.column {
+    height: 100%;
+    overflow-y: auto;
+}
+
+hr {
+    background: rgba(0, 0, 0, 0.6);
+    border: 0;
+    height: 2px;
+    display: block;
+    margin-top: 1.0rem;
+    margin-bottom: 1.0rem;
+}
+
